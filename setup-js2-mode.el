@@ -3,6 +3,8 @@
 (require 'js2-mode)
 (require 'js2-refactor)
 
+(message "loading js2 setup")
+
 (require 'js2-imenu-extras)
 (js2-imenu-extras-setup)
 (custom-set-variables '(js2-basic-offset 2))
@@ -11,7 +13,7 @@
 (font-lock-add-keywords
  'js2-mode `(("\\(function\\) *("
               (0 (progn (compose-region (match-beginning 1)
-                                        (match-end 1) "\u0192")
+                                        (match-end 1) "\u03BB")
                         nil)))))
 
 ;; Use right arrow for return in one-line functions
