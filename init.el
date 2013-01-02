@@ -21,6 +21,9 @@
   (when (file-directory-p project)
     (add-to-list 'load-path project)))
 
+;; Themes directory
+(setq custom-theme-directory (expand-file-name "themes" user-emacs-directory))
+
 ;; Keep emacs Custom-settings in separate file
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file)
@@ -34,6 +37,7 @@
 ;; Install extensions if they're missing
 (defun init--install-packages ()
   (packages-install
+   (cons 'magit melpa)
    (cons 'anything marmalade)
    (cons 'anything-config marmalade)))
 
@@ -43,5 +47,20 @@
    (package-refresh-contents)
    (init--install-packages)))
 
+;; Setup extensions
+(eval-after-load 'magit '(require 'setup-magit))
+(eval-after-load 'anything '(require 'setup-anything))
 (require 'setup-yasnippet)
 (require 's)
+
+;; Language specific setup files
+(eval-after-load 'js2-mode '(require 'setup-js2-mode))
+(eval-after-load 'markdown-mode '(require 'setup-markdown-mode))
+
+;; Map files to modes
+(require 'mode-mappings)
+
+(require 'multiple-cursors)
+
+;; Misc
+(require 'appearance)
