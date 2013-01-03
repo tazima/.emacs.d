@@ -76,6 +76,7 @@
 
 ;; Misc
 (require 'appearance)
+(require 'my-misc)
 
 ;; Conclude init by setting up specifics for the current user
 (when (file-exists-p user-settings-dir)
