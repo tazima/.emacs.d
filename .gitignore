@@ -20,5 +20,3 @@ anything-c-adaptive-history
 ac-comphist.dat
 custom.el
 
-site-lisp/*anything*
-site-lisp/ipa.*
