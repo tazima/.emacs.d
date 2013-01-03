@@ -26,4 +26,5 @@
   (if (file-exists-p "/usr/bin/chromium")
     "/usr/bin/chromium" "/usr/bin/google-chrome"))
 
-(provide 'key-bindings)
+;; 桁数の表示
+(add-hook 'text-mode-hook 'ruler-mode)
