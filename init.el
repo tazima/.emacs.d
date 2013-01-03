@@ -72,7 +72,7 @@
 (require 'multiple-cursors)
 
 ;; Setup key bindings
-(require 'key-bindings)
+(require 'global-key-bindings)
 
 ;; Misc
 (require 'appearance)
