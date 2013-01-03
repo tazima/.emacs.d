@@ -69,5 +69,8 @@
 
 (require 'multiple-cursors)
 
+;; Setup key bindings
+(require 'key-bindings)
+
 ;; Misc
 (require 'appearance)
