@@ -27,7 +27,7 @@
  '(escape-glyph ((t (:foreground "#47B8D6"))))
  '(minibuffer-prompt ((t (:foreground "#47B8D6"))))
  '(highlight ((t (:background "#808080"))))
- '(region ((t (:background "#322A31"))))
+ '(region ((t (:background "#808080"))))
  '(shadow ((t (:foreground "#555555"))))
  '(secondary-selection ((t (:background "#463849"))))
  '(trailing-whitespace ((t (:background "#FFD0D0"))))
