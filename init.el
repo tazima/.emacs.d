@@ -40,7 +40,8 @@
 ;; Install extensions if they're missing
 (defun init--install-packages ()
   (packages-install 
-   (cons 'magit melpa)))
+   (cons 'magit melpa)
+   (cons 'auto-complete marmalade)))
 
 (condition-case nil
     (init--install-packages)
@@ -50,6 +51,7 @@
 
 ;; Setup extensions
 (eval-after-load 'magit '(require 'setup-magit))
+(require 'setup-auto-complete)
 (require 'setup-anything)
 (require 'setup-yasnippet)
 (require 's)

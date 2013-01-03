@@ -16,6 +16,7 @@ site-lisp/adventur-mode
 .DS_Store
 .yas-compiled-snippets.el
 anything-c-adaptive-history
+ac-comphist.dat
 
 site-lisp/*anything*
 site-lisp/ipa.*
