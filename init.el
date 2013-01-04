@@ -42,6 +42,9 @@
   (packages-install 
    (cons 'magit melpa)
    (cons 'helm melpa)
+   (cons 'helm-c-yasnippet melpa)
+   (cons 'color-moccur melpa)
+   (cons 'helm-c-moccur melpa)
    (cons 'auto-complete marmalade)))
 
 (condition-case nil
