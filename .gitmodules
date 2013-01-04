@@ -19,3 +19,6 @@
 [submodule "site-lisp/buster-snippets"]
 	path = site-lisp/buster-snippets
 	url = https://github.com/magnars/buster-snippets.el.git
+[submodule "site-lisp/php-mode"]
+	path = site-lisp/php-mode
+	url = https://github.com/ejmr/php-mode.git
