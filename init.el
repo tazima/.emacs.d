@@ -57,6 +57,7 @@
 (eval-after-load 'magit '(require 'setup-magit))
 (require 'setup-auto-complete)
 (require 'setup-helm)
+(require 'setup-perspective)
 (require 'setup-yasnippet)
 (require 's)
 

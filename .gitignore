@@ -19,4 +19,5 @@ site-lisp/adventur-mode
 anything-c-adaptive-history
 ac-comphist.dat
 custom.el
+users/tajima-junpei/project-mappings.el
 
