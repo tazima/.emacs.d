@@ -37,6 +37,9 @@
 ;; Setup auto-install
 (require 'setup-auto-install)
 
+;; Setup site-lip
+(require 'setup-dependencies)
+
 ;; Install extensions if they're missing
 (defun init--install-packages ()
   (packages-install 
@@ -46,6 +49,8 @@
    (cons 'color-moccur melpa)
    (cons 'helm-c-moccur melpa)
    (cons 'auto-complete marmalade)))
+
+(init--dependencies (list "js2-mode"))
 
 (condition-case nil
     (init--install-packages)
@@ -63,6 +68,7 @@
 
 ;; Language specific setup files
 (eval-after-load 'js2-mode '(require 'setup-js2-mode))
+(eval-after-load 'ruby-mode '(require 'setup-ruby-mode))
 (eval-after-load 'markdown-mode '(require 'setup-markdown-mode))
 
 ;; Map files to modes
