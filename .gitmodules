@@ -25,3 +25,6 @@
 [submodule "site-lisp/perspective"]
 	path = site-lisp/perspective
 	url = https://github.com/magnars/perspective-el.git
+[submodule "site-lisp/mark-multiple"]
+	path = site-lisp/mark-multiple
+	url = https://github.com/magnars/mark-multiple.el.git

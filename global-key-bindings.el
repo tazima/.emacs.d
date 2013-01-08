@@ -10,4 +10,10 @@
 (global-set-key (kbd "C-M-s") 'helm-c-moccur-isearch-forward)
 (global-set-key (kbd "C-M-r") 'helm-c-moccur-isearch-backward)
 
+;; Mark additional regions matching current region
+(global-set-key (kbd "C-<") 'mark-previous-like-this)
+(global-set-key (kbd "C->") 'mark-next-like-this)
+(global-set-key (kbd "C-M-m") 'mark-more-like-this)
+(global-set-key (kbd "C-*") 'mark-all-like-this)
+
 (provide 'global-key-bindings)

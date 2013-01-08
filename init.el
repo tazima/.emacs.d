@@ -80,6 +80,8 @@
   (when (file-regular-p file)
     (load file)))
 
+(require 'mark-more-like-this)
+(require 'inline-string-rectangle)
 (require 'multiple-cursors)
 
 ;; Setup key bindings
