@@ -1,3 +1,6 @@
+;; 時計
+(display-time)
+
 ;; org-mode
 
 ;; TODO状態
