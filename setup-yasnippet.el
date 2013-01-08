@@ -8,4 +8,7 @@
 ;; Include snippets for Buster.js
 (require 'buster-snippets)
 
+;; Include snippets for Mocha and expect.js
+(require 'mocha-expect-snippets)
+
 (provide 'setup-yasnippet)

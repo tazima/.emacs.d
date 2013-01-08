@@ -28,3 +28,6 @@
 [submodule "site-lisp/mark-multiple"]
 	path = site-lisp/mark-multiple
 	url = https://github.com/magnars/mark-multiple.el.git
+[submodule "site-lisp/mocha-expect-snippets"]
+	path = site-lisp/mocha-expect-snippets
+	url = https://github.com/p-baleine/mocha-expect-snippets.el.git
