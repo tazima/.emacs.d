@@ -6,5 +6,7 @@
 (require 'js2-imenu-extras)
 (js2-imenu-extras-setup)
 (custom-set-variables '(js2-basic-offset 2))
+(setq js2-mode-hook
+  '(lambda () (progn (set-variable 'indent-tabs-mode nil))))
 
 (provide 'setup-js2-mode)

@@ -70,6 +70,7 @@
 (eval-after-load 'js2-mode '(require 'setup-js2-mode))
 (eval-after-load 'ruby-mode '(require 'setup-ruby-mode))
 (eval-after-load 'markdown-mode '(require 'setup-markdown-mode))
+(require 'setup-erlang)
 
 ;; Map files to modes
 (require 'mode-mappings)

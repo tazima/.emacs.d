@@ -15,4 +15,8 @@
 (setq php-file-patterns nil)
 (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
 
+;; Erlan
+(autoload 'erlang "erlang-mode")
+(add-to-list 'auto-mode-alist '("\\.erl$" . erlang-mode))
+
 (provide 'mode-mappings)
