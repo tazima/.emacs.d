@@ -48,7 +48,8 @@
    (cons 'helm-c-yasnippet melpa)
    (cons 'color-moccur melpa)
    (cons 'helm-c-moccur melpa)
-   (cons 'auto-complete marmalade)))
+   (cons 'auto-complete marmalade)
+   (cons 'undo-tree marmalade)))
 
 (init--dependencies (list "js2-mode"))
 
@@ -61,6 +62,7 @@
 ;; Setup extensions
 (eval-after-load 'magit '(require 'setup-magit))
 (require 'setup-auto-complete)
+(require 'setup-undo-tree)
 (require 'setup-helm)
 (require 'setup-perspective)
 (require 'setup-yasnippet)
