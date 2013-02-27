@@ -48,6 +48,7 @@
    (cons 'helm-c-yasnippet melpa)
    (cons 'color-moccur melpa)
    (cons 'helm-c-moccur melpa)
+   (cons 'helm-git melpa)
    (cons 'auto-complete marmalade)
    (cons 'undo-tree marmalade)))
 
@@ -72,6 +73,7 @@
 (eval-after-load 'js2-mode '(require 'setup-js2-mode))
 (eval-after-load 'ruby-mode '(require 'setup-ruby-mode))
 (eval-after-load 'markdown-mode '(require 'setup-markdown-mode))
+(eval-after-load 'php-mode '(require 'setup-php-mode))
 (require 'setup-erlang)
 
 ;; Map files to modes

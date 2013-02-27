@@ -11,4 +11,7 @@
 	  '(lambda ()
 	     (local-set-key (kbd "O") 'helm-c-moccur-dired-do-moccur-by-moccur)))
 
+(require 'helm-git nil t)
+(global-set-key (kbd "C-x C-g") 'helm-git-find-files)
+
 (provide 'setup-helm)

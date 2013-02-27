@@ -9,6 +9,9 @@
 ;; DONEの時刻を記録
 (setq org-log-done 'time)
 
+;; Backupしない
+(setq backup-inhibited t)
+
 ;; 今いるディレクトリでgruntコマンドを実行する
 (defun execute-grunt (task)
   (interactive "stask: ")

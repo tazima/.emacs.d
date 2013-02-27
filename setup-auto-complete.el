@@ -3,4 +3,7 @@
 (require 'auto-complete-config)
 (ac-config-default)
 
+;; sql
+(setq ac-modes (append ac-modes '(sql-mode)))
+
 (provide 'setup-auto-complete)
