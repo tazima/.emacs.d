@@ -67,6 +67,7 @@
 (require 'setup-helm)
 (require 'setup-perspective)
 (require 'setup-yasnippet)
+(require 'setup-moccur-edit)
 (require 's)
 
 ;; Language specific setup files
