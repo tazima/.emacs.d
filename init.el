@@ -79,7 +79,6 @@
 (eval-after-load 'ruby-mode '(require 'setup-ruby-mode))
 (eval-after-load 'markdown-mode '(require 'setup-markdown-mode))
 (eval-after-load 'php-mode '(require 'setup-php-mode))
-(require 'setup-erlang)
 
 ;; Map files to modes
 (require 'mode-mappings)
