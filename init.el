@@ -50,6 +50,8 @@
    (cons 'helm-c-moccur melpa)
    (cons 'helm-git melpa)
    (cons 'coffee-mode melpa)
+   (cons 'rinari melpa)
+   (cons 'rhtml-mode melpa)
    (cons 'auto-complete marmalade)
    (cons 'undo-tree marmalade)))
 
@@ -69,6 +71,7 @@
 (require 'setup-perspective)
 (require 'setup-yasnippet)
 (require 'setup-moccur-edit)
+(require 'setup-rinari)
 (require 's)
 
 ;; Language specific setup files
