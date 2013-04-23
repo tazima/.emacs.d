@@ -49,6 +49,7 @@
    (cons 'color-moccur melpa)
    (cons 'helm-c-moccur melpa)
    (cons 'helm-git melpa)
+   (cons 'coffee-mode melpa)
    (cons 'auto-complete marmalade)
    (cons 'undo-tree marmalade)))
 

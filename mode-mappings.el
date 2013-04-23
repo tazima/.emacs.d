@@ -19,4 +19,9 @@
 (autoload 'erlang "erlang-mode")
 (add-to-list 'auto-mode-alist '("\\.erl$" . erlang-mode))
 
+;; CoffeeScript
+(autoload 'coffee-mode "coffee-mode")
+(add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode))
+(add-hook 'coffee-mode-hook (lambda () (make-local-variable 'tab-width) (set 'tab-width 2)))
+
 (provide 'mode-mappings)

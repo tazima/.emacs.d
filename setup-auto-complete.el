@@ -5,5 +5,6 @@
 
 ;; sql
 (setq ac-modes (append ac-modes '(sql-mode)))
+(setq ac-modes (append ac-modes '(coffee-mode)))
 
 (provide 'setup-auto-complete)
