@@ -31,3 +31,6 @@
 [submodule "site-lisp/mocha-expect-snippets"]
 	path = site-lisp/mocha-expect-snippets
 	url = https://github.com/p-baleine/mocha-expect-snippets.el.git
+[submodule "site-lisp/express-snippets"]
+	path = site-lisp/express-snippets
+	url = git@github.com:p-baleine/express-snippets.el.git
