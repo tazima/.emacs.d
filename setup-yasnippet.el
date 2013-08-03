@@ -11,4 +11,7 @@
 ;; Include snippets for Mocha and expect.js
 (require 'mocha-expect-snippets)
 
+;; Include snippets for Express
+(require 'express-snippets)
+
 (provide 'setup-yasnippet)
