@@ -24,4 +24,9 @@
 (add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode))
 (add-hook 'coffee-mode-hook (lambda () (make-local-variable 'tab-width) (set 'tab-width 2)))
 
+;; LESS
+(autoload 'less-css-mode "less-css-mode")
+(add-to-list 'auto-mode-alist '("\\.less$" . less-css-mode))
+(add-hook 'less-css-mode-hook 'flymake-less-load)
+
 (provide 'mode-mappings)
