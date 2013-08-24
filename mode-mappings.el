@@ -33,5 +33,8 @@
 (autoload 'jade-mode "jade-mode")
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
+;; Cucumber
+(autoload 'feature-mode "feature-mode")
+(add-to-list 'auto-mode-alist '("\\.feature$" . feature-mode))
 
 (provide 'mode-mappings)
