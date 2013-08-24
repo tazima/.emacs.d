@@ -29,4 +29,9 @@
 (add-to-list 'auto-mode-alist '("\\.less$" . less-css-mode))
 (add-hook 'less-css-mode-hook 'flymake-less-load)
 
+;; Jade
+(autoload 'jade-mode "jade-mode")
+(add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
+
+
 (provide 'mode-mappings)
