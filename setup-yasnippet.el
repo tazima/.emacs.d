@@ -15,4 +15,7 @@
 ;; Include snippets for Express
 (require 'express-snippets)
 
+;; Include snippets for coffee-script
+(require 'coffee-script-snippets)
+
 (provide 'setup-yasnippet)
