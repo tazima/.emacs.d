@@ -53,12 +53,12 @@
    (cons 'rinari melpa)
    (cons 'rhtml-mode melpa)
    (cons 'rspec-mode melpa)
+   (cons 'jade-mode melpa)
+   (cons 'feature-mode melpa)
    (cons 'json-mode marmalade)
    (cons 'sws-mode marmalade)
-   (cons 'jade-mode marmalade)
    (cons 'less-css-mode melpa)
    (cons 'flymake-easy melpa)
-   (cons 'flymake-less marmalade)
    (cons 'auto-complete marmalade)
    (cons 'undo-tree marmalade)))
 
@@ -85,7 +85,6 @@
 (eval-after-load 'js2-mode '(require 'setup-js2-mode))
 (eval-after-load 'json-mode '(require 'setup-json-mode))
 (eval-after-load 'ruby-mode '(require 'setup-ruby-mode))
-(eval-after-load 'ruby-mode '(require 'setup-rspec-mode))
 (eval-after-load 'markdown-mode '(require 'setup-markdown-mode))
 (eval-after-load 'php-mode '(require 'setup-php-mode))
 
