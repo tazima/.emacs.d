@@ -54,6 +54,8 @@
    (cons 'rhtml-mode melpa)
    (cons 'rspec-mode melpa)
    (cons 'json-mode marmalade)
+   (cons 'sws-mode marmalade)
+   (cons 'jade-mode marmalade)
    (cons 'less-css-mode melpa)
    (cons 'flymake-easy melpa)
    (cons 'flymake-less marmalade)
