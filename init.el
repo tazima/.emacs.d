@@ -47,7 +47,6 @@
    (cons 'helm melpa)
    (cons 'helm-c-yasnippet melpa)
    (cons 'color-moccur melpa)
-   (cons 'helm-c-moccur melpa)
    (cons 'helm-git melpa)
    (cons 'coffee-mode melpa)
    (cons 'rinari melpa)
