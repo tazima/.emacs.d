@@ -6,6 +6,7 @@
 
 ;; helm-occur
 (global-set-key (kbd "M-o") 'helm-occur)
+(global-set-key (kbd "C-M-o") 'occur-by-moccur)
 
 ;; Mark additional regions matching current region
 (global-set-key (kbd "C-<") 'mark-previous-like-this)
