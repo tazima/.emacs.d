@@ -4,11 +4,9 @@
 ;; helm-c-yasnippet
 (global-set-key (kbd "C-c y") 'helm-c-yas-complete)
 
-;; helm-c-moccur
-(global-set-key (kbd "M-o") 'helm-c-moccur-occur-by-moccur)
-(global-set-key (kbd "C-M-o") 'helm-c-moccur-dmoccur)
-(global-set-key (kbd "C-M-s") 'helm-c-moccur-isearch-forward)
-(global-set-key (kbd "C-M-r") 'helm-c-moccur-isearch-backward)
+;; helm-occur
+(global-set-key (kbd "M-o") 'helm-occur)
+(global-set-key (kbd "C-M-o") 'occur-by-moccur)
 
 ;; Mark additional regions matching current region
 (global-set-key (kbd "C-<") 'mark-previous-like-this)
