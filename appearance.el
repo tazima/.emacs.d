@@ -1,7 +1,7 @@
 ;; font
 (set-face-attribute 
  'default nil
- :family "monaco"
+ :family "CosmicSansNeueMono"
  :height 95)
 
 ;; Highlight matching parentheses when the point is on them.
