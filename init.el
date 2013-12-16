@@ -48,6 +48,7 @@
    (cons 'helm-c-yasnippet melpa)
    (cons 'color-moccur melpa)
    (cons 'helm-git melpa)
+   (cons 'helm-git-grep melpa)
    (cons 'coffee-mode melpa)
    (cons 'rinari melpa)
    (cons 'rhtml-mode melpa)
