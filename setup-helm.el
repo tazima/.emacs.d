@@ -14,4 +14,8 @@
 (require 'helm-git nil t)
 (global-set-key (kbd "C-x C-g") 'helm-git-find-files)
 
+(require 'helm-git-grep)
+(global-set-key (kbd "C-c g") 'helm-git-grep)
+(global-set-key (kbd "C-c M-g") 'helm-git-grep-at-point)
+
 (provide 'setup-helm)
