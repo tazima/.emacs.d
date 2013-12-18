@@ -35,6 +35,9 @@
 (add-to-list 'auto-mode-alist '("\\.jade$" . sws-mode))
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
+;; scss
+(require 'setup-scss-mode)
+
 ;; Cucumber
 (autoload 'feature-mode "feature-mode")
 (add-to-list 'auto-mode-alist '("\\.feature$" . feature-mode))
