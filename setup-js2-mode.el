@@ -2,12 +2,19 @@
 
 (require 'js2-mode)
 (require 'js2-refactor)
-
 (require 'js2-imenu-extras)
+(require 'nodejs-repl)
+(require 'repl-toggle)
+
 (js2-imenu-extras-setup)
 (custom-set-variables '(js2-basic-offset 2))
+(setq rtog/mode-repl-alist '((js2-mode . nodejs-repl) (emacs-lisp-mode . ielm)))
+
 (setq js2-mode-hook
-  '(lambda () (progn (set-variable 'indent-tabs-mode nil))))
+      '(lambda () (progn
+		    (set-variable 'indent-tabs-mode nil)
+		    (local-set-key (kbd "C-c C-s") 'nodejs-repl)
+		    (local-set-key (kbd "C-c C-r") 'rtog/toggle-repl))))
 
 ;; Use lambda for anonymous functions
 (font-lock-add-keywords

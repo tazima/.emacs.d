@@ -58,6 +58,8 @@
    (cons 'sws-mode marmalade)
    (cons 'less-css-mode melpa)
    (cons 'flymake-easy melpa)
+   (cons 'nodejs-repl melpa)
+   (cons 'repl-toggle melpa)
    (cons 'auto-complete marmalade)
    (cons 'undo-tree marmalade)))
 
