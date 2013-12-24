@@ -59,9 +59,8 @@
    (cons 'less-css-mode melpa)
    (cons 'flymake-easy melpa)
    (cons 'auto-complete marmalade)
+   (cons 'js2-mode melpa)
    (cons 'undo-tree marmalade)))
-
-(init--dependencies (list "js2-mode"))
 
 (condition-case nil
     (init--install-packages)
